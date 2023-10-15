@@ -22,15 +22,15 @@ const list = [
 
 <style >
 .carousel { 
-  position: relative; /* 设置轮播图容器为相对定位，以容纳导航栏 */
+  position: relative; 
 }
 .HomeHeader{
-  position: absolute; /* 设置导航栏为绝对定位，覆盖在轮播图上方 */
-  top: 0; /* 根据需要设置垂直位置 */
-  left: 0; /* 根据需要设置水平位置 */
-  background-color: rgba(0, 0, 0, 0); /* 透明背景色，根据需要调整 */
-  padding: 10px; /* 根据需要调整内边距 */
-  color: #ffffff; /* 文字颜色，根据需要调整 */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  background-color: rgba(0, 0, 0, 0); 
+  padding: 10px; 
+  color: #ffffff; 
 }
 .HomeClearFix{
   position: absolute;
