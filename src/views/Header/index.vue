@@ -1,6 +1,6 @@
 <script setup>
-import HomeHeader from "./HomeHeader.vue"
-import HomeClearFix from "./HomeClearFix.vue"
+import HomeHeader from "./components/HomeHeader.vue"
+import HomeClearFix from "./components/HomeClearFix.vue"
 const list = [
   "https://www.hnust.edu.cn/images/2023-09/gp_th_11dbedee63b9498bb6327f804452543b.jpg",
   "https://www.hnust.edu.cn/images/2023-07/9c8a40be5a3b4ed5b1362c5e048cffdd.jpg",
@@ -40,11 +40,11 @@ const list = [
   
 }
 .img{
-  height: 725px;
+  height: 750px;
   width: 100%;
 }
 .el-carousel__container{
-  height: 725px !important;
+  height:750px !important;
 }
 .el-carousel__item:nth-child(2n) {
   background-color: #99a9bf;
