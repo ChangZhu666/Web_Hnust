@@ -17,7 +17,7 @@ showHomeFixed.value = computed(() => {
   
     <HomeHeader></HomeHeader>
     <Transition name="slide-fade">
-      <HomeFixed class="HomeFixed" v-if="showHomeFixed.value" ></HomeFixed>
+      <HomeFixed class="HomeFixed" v-if="showHomeFixed.value"  style="z-index: 9999;"></HomeFixed>
     </Transition>
     <HomeBody></HomeBody>
     <HomeFooter></HomeFooter>

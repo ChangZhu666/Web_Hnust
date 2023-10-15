@@ -12,6 +12,6 @@
 <style scoped>
 .main{
     background-color: rgb(245,245,250);
-    height: 600px;
+    height: 650px;
 }
 </style>

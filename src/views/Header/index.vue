@@ -11,7 +11,7 @@ const list = [
 </script>
 
 <template>
-  <el-carousel :interval="3000" arrow="always" class="carousel">
+  <el-carousel :interval="3000" arrow="always" height="750px">
     <el-carousel-item v-for="item in list" :key="item">
      <img :src="item" alt="" class="img">
     </el-carousel-item>
@@ -43,9 +43,7 @@ const list = [
   height: 750px;
   width: 100%;
 }
-.el-carousel__container{
-  height:750px !important;
-}
+
 .el-carousel__item:nth-child(2n) {
   background-color: #99a9bf;
 }
@@ -55,3 +53,4 @@ const list = [
 }
 
 </style>
+

@@ -62,6 +62,9 @@
     background-color: rgb(30,30,30);
     color: rgb(255, 255, 255);
 }
+a{
+    color: rgb(255, 255, 255);
+}
 .footer{
     width: 1000px;
     height: 200px;

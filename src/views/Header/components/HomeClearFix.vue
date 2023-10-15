@@ -48,7 +48,7 @@
     
 </template>
 
-<style >
+<style scoped>
 .logo{
     width: 260px;
     height: 60px;
@@ -76,6 +76,9 @@ a{
     text-decoration: none;
     
 }
+
+</style>
+<style>
 .el-popper.is-light{
     background: #ffffff00;
     border: 1px solid #e4e7ed00;
@@ -93,4 +96,3 @@ a{
     padding-left: 10px;
 }
 </style>
-
