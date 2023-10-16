@@ -54,6 +54,12 @@
     width: 100%;
     margin: 0 auto;
 }
+a{
+    font-size: 18px;
+}
+.el-menu-item a{
+    font-size: 14px;
+}
 .logo{
     margin-left:265px ;
     width: 260px;

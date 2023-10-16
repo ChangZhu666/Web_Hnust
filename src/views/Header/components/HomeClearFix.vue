@@ -74,9 +74,12 @@
 a{
     color: #ffffff;
     text-decoration: none;
-    
+    font-size: 18px;
 }
 
+.el-menu-item a{
+    font-size: 14px;
+}
 </style>
 <style>
 .el-popper.is-light{

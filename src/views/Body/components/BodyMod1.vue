@@ -77,7 +77,7 @@
     float: right;
     font-size: 12px;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 35px;
 }
 .readMore a{
     color: #999;
